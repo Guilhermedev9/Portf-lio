@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html, body{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+body{
+background-repeat: no-repeat;  
+background-color: rgb(28, 26, 26);  
+background-image: url(imgs/imagemm.jpg);  
+background-size: 100%;  
+}
+
+img{
+margin: 30px;
+margin-left: 80px;
+width: 25px;
+}
+.cabeça{
+    display: flex;
+ align-items: center;
+ 
+}
+ul{
+   display: flex;
+   gap: 130px;
+ list-style: none;
+margin-left: 400px;
+color: rgb(255, 255, 255);
+font-size: 19px;
+margin-left: 760px;
+}
+.container{
+    margin-left: 330px;
+    letter-spacing: 0px; 
+    margin-top: 180%;
+}
+.name{
+    color: rgb(0, 0, 0);
+ margin-left: 180px;
+ font-size: 40px;
+}
+p{
+    margin-left: 160px;
+    font-size: 20px;
+}
+.p2{
+    width: 591px;
+}
+.eu{
+    color: #ffffff;
+    
+}
+.abt-box{
+    display: flex;
+    margin-top: 50%;
+    align-items: center;
+}
+.logo{
+    width: 90px;
+    margin-left: 150px;
+}
+nav li{
+    position: relative;
+}
+nav li::after{
+    content: "  ";
+    width: 0%;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.7s ease-in-out;
+}
+nav li:hover::after{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.icon>img{
+    width: 250px;   
+    margin-left: 810px;
+    margin-top: 100px;
+}
+.ctn-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ flex-direction: column;
+ margin-top: 10%;
+}
+.home .home-content .text-1{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.text-1{
+    font-size: 35px;
+}
+.text-2{
+    color: rgb(255, 255, 255);
+    font-size: 52px;
+}
